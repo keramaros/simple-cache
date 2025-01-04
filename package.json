@@ -1,0 +1,21 @@
+{
+  "name": "simple-cache",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project implements a lightweight caching class that wraps JavaScript's native Map() object to provide an efficient and intuitive caching mechanism.",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.12.7",
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
