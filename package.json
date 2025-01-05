@@ -1,13 +1,22 @@
 {
-  "name": "simple-cache",
-  "version": "1.0.0",
+  "name": "@keramaros/simple-cache",
+  "version": "1.0.1",
   "type": "module",
+  "main": "./src/SimpleCache.ts",
   "description": "This project implements a lightweight caching class that wraps JavaScript's native Map() object to provide an efficient and intuitive caching mechanism.",
   "scripts": {
     "test": "npx mocha"
   },
-  "keywords": [],
-  "author": "",
+  "private": false,
+  "keywords": [
+    "cache",
+    "nodejs",
+    "typescript"
+  ],
+  "author": {
+    "name": "Antonis Keramaros",
+    "url": "https://keramaros.gr"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^5.0.1",
@@ -17,5 +26,13 @@
     "mocha": "^11.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keramaros/simple-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keramaros/simple-cache/issues"
+  },
+  "homepage": "https://github.com/keramaros/simple-cache#readme"
 }
