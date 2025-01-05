@@ -39,7 +39,7 @@ cache.size
 cache.clear()
 ```
 
-The `handle` function checks if the variable exists; if it does, it returns the value; otherwise, it sets and returns the value.
+The `handle` function checks if the variable exists; if it does, it returns the value; otherwise, it runs the function, sets the variable, and returns the value.
 
 ```typescript
 const simple = cache.handle("sum", () => 100 + 10)
